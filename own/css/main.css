@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    height: 95vh;
-    background-image: url(../img/hogwarts.jpg);
+    height: 100%;
+    background-image: url(https://4kwallpapers.com/images/wallpapers/hogwarts-legacy-pc-games-playstation-4-playstation-5-xbox-6400x3606-2913.jpg);
     background-size: cover;
 }
