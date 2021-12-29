@@ -3,14 +3,24 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
+body {
     font-family: 'Hind Siliguri', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.7;
+    color: #888;
+    padding: 20rem;
 }
 
 .intro {
     font-weight: 500;
     font-size: 2rem; 
+}
+
+.header {
+    height: 95vh;
+    background-image: url(../img/hogwarts.jpg);
+    background-size: cover;
 }
