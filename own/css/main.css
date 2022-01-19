@@ -18,14 +18,29 @@ body {
     background-size: cover;
     background-position: top;
     position: relative;
+    align-items: center;
 }
 
 .logobox {
-    position: absolute;
-    top: 30%;
-    left: 10%;
+   
 }
 
 .logo {
     height: 10rem;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+
+.headtext {
+    position: absolute;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.7rem;
+    top: 40%;
+    left: 10%;
+
+
+
 }
