@@ -4,7 +4,7 @@
   "description": "Landing page for Sciecosite",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compilesass": "node-sass own/sass/main1.scss own/css/main2.css -w"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nabilbinsayed/Sciecosite/issues"
   },
-  "homepage": "https://github.com/nabilbinsayed/Sciecosite#readme"
+  "homepage": "https://github.com/nabilbinsayed/Sciecosite#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
 }
