@@ -44,7 +44,8 @@ body {
   text-align: center; }
 
 .heading-primary {
-  animation: moveright 1s ease-in; }
+  animation: moveright 1s ease-in;
+  display: block; }
 
 .heading-primary--main {
   font-family: 'Quantico', sans-serif;
@@ -58,19 +59,24 @@ body {
   font-family: 'Quantico', sans-serif;
   font-size: 3rem;
   letter-spacing: .35rem;
-  font-weight: 400; }
+  font-weight: 400;
+  display: block; }
+  .heading-primary--sub::after {
+    content: "";
+    display: block; }
 
 .btn:link,
 .btn:visited {
-  display: inline-block;
-  width: 10rem;
+  margin: 4rem 1rem;
+  width: 15rem;
   text-align: center;
   text-decoration: none;
   padding: 1rem 2rem;
   border-radius: 5rem;
   font-size: 2rem;
   animation: moveup 1s ease-in;
-  transition: all .2s; }
+  transition: all .2s;
+  display: inline-block; }
 
 .btn:hover {
   transform: translateY(-0.2rem);
@@ -82,13 +88,11 @@ body {
   box-shadow: 0 0.5rem 1rem #000, 0.2; }
 
 .btn--1 {
-  margin: 3rem 1rem 2rem 0;
   background-color: white;
   background: linear-gradient(to right, #00ac72, #006b96);
   color: white; }
 
 .btn--2 {
-  margin: 3rem 0 2rem 1rem;
   background: linear-gradient(to right bottom, rgba(0, 242, 97, 0.8), rgba(0, 118, 133, 0.8));
   color: white;
   font-weight: 500; }
